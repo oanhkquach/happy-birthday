@@ -1,4 +1,19 @@
 button {
   width: 100px;
-  margin-left: 550px;
+  margin-left: 45%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 1500%;
+}
+
+@media only screen and (max-width: 480px) {
+  button {
+    margin-left: 30%;
+  }
+
+  body {
+    background-size: 100% 500%;
+  }
 }
